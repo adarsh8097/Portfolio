@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adarsh's Portfolio</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://kit.fontawesome.com/c4aceac792.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="logo1.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skill">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa fa-times-circle-o icon" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fa fa-bars icon" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h4>Hello!</h4>
+                <h1>I am Adarsh Gupta </h1>
+                <p>A Front-End Web Developer</p>
+            </div>
+        </div>
+    </div>
+
+    <!--------About Section -------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="User2.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        I am passionate about designing and developing user-friendly and visually appealing websites.
+                        I have a strong foundation in HTML, CSS,BootStrap,React and JavaScript and I am constantly learning and exploring
+                        new technologies to improve my skills. I am a quick learner and a team player always willing to
+                         collaborate with others to achieve the best results.
+                         I am excited to continue growing my career in web development and contribute to the ever-evolving world
+                         of technology.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li>
+                                <span>2021</span>
+                                <br>Bachelor of ComputerScience
+                                <br>Information technology
+                            </li>
+                            <li>
+                                <span>2018</span>
+                                <br>Intermediate (Class XII),Science
+                            </li>
+                            <li>
+                                <span>2016</span>
+                                <br>Matriculation (Class X)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="hobbies">
+                        <ul>
+                            <li>Cricket</li>
+                            <li>Listening to music</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------Skills section----------->
+    
+    <div id="skill">
+    <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div id="skills-container">
+                <div class="items java">Java </div>
+                <div class="items dsa">Data Structure and Algorithms </div>
+                <div class="items mysql">MY SQL </div>
+                <div class="items html">HTML </div>
+                <div class="items css">CSS </div>
+                <div class="items js">Javascript </div>
+                <div class="items bs">BootStrap </div>
+                <div class="items react">React </div>
+                <div class="items next">Next.js </div>
+                <div class="items php">PHP </div>
+
+
+
+        </div>
+    </div>
+    </div>
+    <!------------------Projects Section----------------->
+    <div id="project">
+        <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+
+        <div class="project-list">  
+            <img src="Screenshot.png" class="project-img">
+            <p class="project-content">
+                Created a functional and user-friendly e-commerce website using HTML CSS,BootStrap,React and JavaScript,that allows users to add items to their cart,
+                view the cost of products.The use of data-base ensures that the cart contents
+                are saved even if the user leaves the page or closes their browser.
+                The webpage is designed to be responsive, providing an optimal viewing experience on different devices.
+                <br/>
+                <italic>Tech Stack Used: HTML, CSS,BootStrap,React & JavaScript</italic>
+               <span class="icon">
+                <a href="https://wondrous-basbousa-44f2d5.netlify.app/" target="_blank"><i class="fa fa-link"></i></a>
+                <a href="https://github.com/adarsh8097/SoleStore2" target="_blank"><i class="fa fa-github-square"></i></a>
+                </span>
+            </p>
+        </div>
+
+        <div class="project-list">
+            <img src="Screenshot1.png" class="project-img">
+            <p class="project-content">
+                Facebook-App features is a website Responsive UI, Login/ Signup, create post, create page, view posts, upvote, downvote and comments on post <br/>
+                <italic>Tech Stack Used: HTML, CSS,BootStrap,React & JavaScript</italic>
+               <span class="icon">
+                <a href="https://facebook-clone-rnx1.vercel.app/" target="_blank"><i class="fa fa-link"></i></a>
+                <a href="https://github.com/adarsh8097/facebook-clone" target="_blank"><i class="fa fa-github-square"></i></a>
+                </span>
+            </p>
+        </div>
+
+        <div class="project-list">
+            <img src="Screenshot2.png" class="project-img">
+            <p class="project-content">
+                Pokemon HelpDesk is an exciting React.JS web application that offers a dynamic and interactive platform for exploring the world of Pokemon.<br/>
+                <italic>Tech Stack Used: HTML, CSS & JavaScript</italic>
+               <span class="icon">
+                <a href="https://adarsh-pokemon.netlify.app/" target="_blank"><i class="fa fa-link"></i></a>
+                <!-- <a href="https://github.com/Priti201/Movie-Booking-Application---Javascript-Project---uzhmcu7f8rnr" target="_blank"><i class="fa fa-github-square"></i></a> -->
+                </span>
+            </p>
+        </div>
+
+        <div class="project-list">
+            <img src="movie-booking-img.jpg" class="project-img">
+            <p class="project-content">
+                Movie-Booking-App is a website that allows users to search for and book movie tickets online. It provides a convenient and hassle-free way for users to purchase tickets for their favorite movies. It is a responsive and user-friendly website built using technologies like HTML, CSS and JavaScript<br/>
+                <italic>Tech Stack Used: HTML, CSS & JavaScript</italic>
+               <span class="icon">
+                <a href="https://priti201.github.io/Movie-Booking-Application---Javascript-Project---uzhmcu7f8rnr/" target="_blank"><i class="fa fa-link"></i></a>
+                <!-- <a href="https://github.com/Priti201/Movie-Booking-Application---Javascript-Project---uzhmcu7f8rnr" target="_blank"><i class="fa fa-github-square"></i></a> -->
+                </span>
+            </p>
+        </div>
+
+        <div class="project-list">
+            <img src="movie-deck.jpg" class="project-img">
+            <p class="project-content">
+                Movie-Deck is a webpage designed for movie enthusiasts who want to effortlessly discover, track, and enjoy their favorite films. With a user-friendly interface and powerful features, Movie-Deck transforms the way you explore the world of cinema.<br/>
+                <italic>Tech Stack Used: HTML, CSS & JavaScript</italic>
+               <span class="icon">
+                <a href="https://priti201.github.io/Movie-Deck-Project-Buidling---JS-Project-Building-Session-HTML-CSS---In-Cla---nx9ymbv7joot/" target="_blank"><i class="fa fa-link"></i></a>
+                <!-- <a href="https://github.com/Priti201/Movie-Deck-Project-Buidling---JS-Project-Building-Session-HTML-CSS---In-Cla---nx9ymbv7joot" target="_blank"><i class="fa fa-github-square"></i></a> -->
+                </span>
+            </p>
+        </div>
+
+        <div class="project-list">
+            <img src="Sportify_Project.jpg" class="project-img">
+            <p class="project-content">
+                A basic website similar to Sportify, a popular music streaming platform.
+                A mobile-first webpage created using HTML and CSS.
+                I prioritized creating a mobile-first design that would adapt to different screen sizes using media queries.
+                <br/>
+                <italic>Tech Stack Used: HTML & CSS</italic>
+                <span class="icon">
+                    <a href="https://priti201.github.io/Spotify/" target="_blank"><i class="fa fa-link"></i></a>
+                    <!-- <a href="https://github.com/Priti201/Spotify" target="_blank"><i class="fa fa-github-square"></i></a> -->
+                    </span>
+            </p>
+        </div>
+
+        <div class="project-list">
+            <img src="Shopping_Cart.jpg" class="project-img">
+            <p class="project-content">
+                Created a functional and user-friendly e-commerce website using HTML CSS and JavaScript,that allows users to add items to their cart,
+                view the cost of products.The use of local storage ensures that the cart contents
+                are saved even if the user leaves the page or closes their browser.
+                The webpage is designed to be responsive, providing an optimal viewing experience on different devices.
+                <br/>
+                <italic>Tech Stack Used: HTML, CSS & JavaScript</italic>
+               <span class="icon">
+                <a href="https://priti201.github.io/Shopping-cart/" target="_blank"><i class="fa fa-link"></i></a>
+                <!-- <a href="https://github.com/Priti201/Shopping-cart" target="_blank"><i class="fa fa-github-square"></i></a> -->
+                </span>
+            </p>
+        </div>
+
+       
+    </div>
+    </div>
+
+    <!--------------------Contact section---------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p>adarshgupta5653@gmail.com <i class="fa fa-envelope"></i></p>
+                    <p>8169430874 <i class="fa fa-phone"></i></p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        <a href="https://github.com/adarsh8097"><i class="fa fa-github-square"></i></a>
+                    </div>
+                
+                        <a href="Resume-Adarsh Shailendra Gupta80.pdf" download class="btn btn2">Download Resume</a>
+                    
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Adarsh</p>
+        </div>
+    </div>
+    <script defer src="script.js"></script>
+</body>
+</html>
