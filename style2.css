@@ -60,10 +60,33 @@ nav ul li a:hover::after{
 }
 .header-text h1{
     font-size: 60px;
-    margin: 20px;
+    margin-top: 40px;
     color:rgb(250, 80, 190) ;
    
 }
+
+.header-text  p{
+    margin-top: -2rem;
+}
+
+.name {
+    position: relative;
+    left: -100%; /* Start position */
+    gap: 10px;
+    top: 10%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    animation: slideFromLeft 5s ease forwards; /* Animation duration and timing */
+  }
+  @keyframes slideFromLeft {
+    0% {
+      left: -100%; /* Start position */
+    }
+    100% {
+      left: 0%; /* End position (center) */
+    }
+  }
+
 /* -------About section------ */
 
 #about{
